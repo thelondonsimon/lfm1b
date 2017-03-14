@@ -23,7 +23,6 @@ CREATE TABLE public.spotify_artist
   image text,
   image_width smallint,
   image_height smallint,
-  album_type text,
   date_created timestamp NOT NULL,
   date_updated timestamp NOT NULL,
   CONSTRAINT pk_spotify_artist_id PRIMARY KEY (id)
